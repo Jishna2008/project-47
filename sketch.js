@@ -12,26 +12,26 @@ var backg1,gameOver,over,diedImg;
 var backSound1,backSound2,pointSound,endSound;
 function preload()
 {
-    runner_Img=loadAnimation("images/img1.png","images/img2.png"," images/img3.png",
-                 " images/img4.png"," images/img5.png"," images/img6.png");
-    diedImg=loadAnimation("images/endImg.png");
+    runner_Img=loadAnimation("img1.png","img2.png"," img3.png",
+                 " img4.png"," img5.png"," img6.png");
+    diedImg=loadAnimation("endImg.png");
 
-    foodImg=loadImage(" images/fruit.png");
-    jewelImg=loadImage(" images/ruby.png");
-    treasureImg=loadImage(" images/jewel.png");
+    foodImg=loadImage("fruit.png");
+    jewelImg=loadImage("ruby.png");
+    treasureImg=loadImage("jewel.png");
 
-    gameOver=loadImage("images/gameOver.png");
-    obstacleImg1=loadImage(" images/ufo.png");
-    obstacleImg2=loadImage(" images/alien.png");
+    gameOver=loadImage("gameOver.png");
+    obstacleImg1=loadImage("ufo.png");
+    obstacleImg2=loadImage("alien.png");
 
-    bg1=loadImage(" images/moon run.PNG");
-    bg2=loadImage(" images/bg2.PNG");
-    bg3=loadImage(" images/bg3.PNG");
-    bg=loadImage(" images/Good.png");
+    bg1=loadImage("moon run.PNG");
+    bg2=loadImage("bg2.PNG");
+    bg3=loadImage("bg3.PNG");
+    bg=loadImage("Good.png");
 
-    backSound1=loadSound("sounds/bgS.mp3");
-    pointSound=loadSound("sounds/scoreSound.wav")
-    endSound=loadSound("sounds/end sound.wav");
+   
+    pointSound=loadSound("scoreSound.wav")
+    endSound=loadSound("end sound.wav");
 }
 
 function setup(){
